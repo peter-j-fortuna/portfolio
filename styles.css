@@ -1,0 +1,89 @@
+/* ===================
+   Variables / Theme
+   =================== */
+:root {
+    --primary-color: #e3dacc;
+    --secondary-color: #141413;
+    --secondary-muted-color: #3d3d3a;
+    --accent-color: #d97757;
+    --bg-color: #f0eee6;
+}
+
+/* ===================
+   Base Styles
+   =================== */
+body {
+    background-color: var(--bg-color);
+    color: var(--secondary-color);
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--secondary-color);
+}
+
+/* ===================
+   Typography
+   =================== */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    color: var(--secondary-color);
+}
+
+.text-muted {
+    color: var(--secondary-muted-color) !important;
+}
+
+/* ===================
+   Components
+   =================== */
+.btn-primary {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+
+.btn-primary:hover {
+    background-color: var(--secondary-muted-color);
+    border-color: var(--secondary-muted-color);
+}
+
+.card {
+    background-color: var(--bg-light);
+    border: 1px solid var(--bg-light);
+}
+
+.form-control {
+    min-height: 5vh;
+    width: 30vw;
+}
+
+/* ===================
+   Layout
+   =================== */
+.hero-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.qa-rag-container {
+    background-color: var(--primary-color);
+    border-radius: 30px;
+    min-height: 30vh;
+}
+
+/* ===================
+   Utilities
+   =================== */
+.gradient-text {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
