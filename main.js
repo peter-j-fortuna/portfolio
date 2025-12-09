@@ -2,7 +2,6 @@
 const greetings = [
     "Hi there!",
     "Hej hej!",
-    "Bonjour!",
     "Olá!",
 ];
 const randomGreeting = greetings[Math.floor(Math.random() * greetings.length)];
