@@ -63,6 +63,28 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: none !important;
 }
 
+.btn-outline-primary {
+    background-color: var(--bg-color);
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+    color: var(--bg-color);
+}
+
+.btn-outline-primary:focus,
+.btn-outline-primary:active,
+.btn-outline-primary.active,
+.btn-outline-primary:first-child:active,
+.btn-outline-primary:focus-visible {
+    background-color: var(--accent-muted-color) !important;
+    border-color: var(--accent-muted-color) !important;
+    box-shadow: none !important;
+}
+
 .card {
     background-color: var(--bg-light);
     border: 1px solid var(--bg-light);

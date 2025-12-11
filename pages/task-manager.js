@@ -1,6 +1,6 @@
 pages['task-manager'] = `
 <div class="container mt-5">
-    <button class="btn btn-primary mb-4" onclick="goBack()">← Back</button>
+    <button class="btn btn-outline-primary mb-4" onclick="goBack()">← Back</button>
     <h1 class="header">Task Manager</h1>
     <h1>Product</h1>
     <p>Your content here...</p>
