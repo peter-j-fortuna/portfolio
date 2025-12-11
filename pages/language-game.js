@@ -8,8 +8,5 @@ pages['language-game'] = `
 
     <h1>Implementation</h1>
     <p>Your content here...</p>
-
-    <h1>Marketing</h1>
-    <p>Your content here...</p>
 </div>
 `;
