@@ -17,10 +17,9 @@ pages['mad-libs'] = `
         </p>
         </div>
         <div class="col-6">
-        <img src="assets/mad-lib-example.png" class="w-100" style="height: auto;"> 
+        <img src="assets/mad-libs-example.png" class="w-100" style="height: auto;"> 
         </div>
     </div>
-    <h1>Demo Video</h1>
-</div>
-`;
-
+    <h1>Sample Story</h1>
+    <img src="assets/mad-libs-example-2.png" class="w-100" style="height: auto;"> 
+</div>`;

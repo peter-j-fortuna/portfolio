@@ -1,4 +1,3 @@
-
 pages['language-game'] = `
 <div class="container mt-5">
     <button class="btn btn-outline-primary mb-4" onclick="goBack()">← Back</button>
@@ -15,5 +14,5 @@ pages['language-game'] = `
             <p>The app is a simple language learning game that was designed from the ground up with generative AI image and text generation in mind. Tens of thousands of sentence and image pairs were systematically created using approximately 500 vocab words. The app is designed to create a more intuitive user experience by accompanying each sentence with an image that clearly demonstrates the meaning of the sentence. AWS Machine Translation was used to translate each sentece to Spanish, French, Italian, Portuguese, and German.</p>
         </div>
     </div>
-</div> 
-    `;
+</div>
+`;
